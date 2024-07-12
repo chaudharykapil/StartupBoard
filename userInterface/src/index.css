@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip-text-multi-line {
+    display: "block";
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap
+}
+
+.clip-text-inline{
+    display: inline-block; /* for inline elements e.g. span, strong, em etc */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
